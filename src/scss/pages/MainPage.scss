@@ -1,0 +1,29 @@
+header{
+  padding: 70px 15px 0;
+  color:#fff;
+  .header__title{
+    font-size: 38px;
+    line-height: 85%;
+    width: 160px;
+
+  }
+  .header__subtitle{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 90%;
+    width: 160px;
+  }
+  .strava__link{
+    position: absolute;
+    top:70px;
+    right:30px;
+    width: 45px;
+    height: 45px;
+    img{
+      height: 100%;
+    }
+  }
+}
+.main-page{
+
+}
