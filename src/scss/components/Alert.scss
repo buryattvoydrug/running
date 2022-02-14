@@ -1,0 +1,18 @@
+.alert{
+  // margin-top: 210px;
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  .alert__icon{
+    height: 30px;
+    padding-left: 10px;
+  }
+  .alert__text{
+    line-height: 110%;
+    font-size: 12px;
+  }
+}

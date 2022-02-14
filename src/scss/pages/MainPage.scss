@@ -24,6 +24,55 @@ header{
     }
   }
 }
+.main-wrapper{
+  background: #000;
+}
 .main-page{
-
+  padding-bottom: 180px;
+  .sport__item{
+    position: relative;
+    margin-top: 5px;
+    background: #fff;
+    border-radius: 35px;
+    min-height: 170px;
+    display: flex;
+    .sport__img{
+      height: 100%;
+      width: 130px;
+      object-fit: cover;
+      border-radius: 30px;
+    }
+    .sport-block{
+      padding: 20px 20px 20px 25px;
+      .sport__date{
+        display: block;
+        font-size: 10px;
+      }
+      .sport__time{
+        font-size: 14px;
+      }
+      .sport__title{
+        font-size: 18px;
+        line-height: 90%;
+        margin-top: 15px;
+      }
+      .sport__subtitle{
+        font-size: 12px;
+        margin-top: 3px;
+      }
+      .sport__place{
+        position: absolute;
+        bottom:20px;
+        display: flex;
+        align-items: center;
+        .pin{
+          height: 10px;
+          margin-right: 5px;
+        }
+        .place__text{
+          font-size: 10px;
+        }
+      }
+    }
+  }
 }
