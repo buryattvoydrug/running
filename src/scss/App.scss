@@ -1,5 +1,6 @@
 @import './pages/MainPage.scss';
 @import './pages/Form.scss';
+@import './pages/ThankYou.scss';
 @import './pages/Single.scss';
 @import './components/Alert.scss';
 @import './components/SportItem.scss';
@@ -46,4 +47,6 @@ footer{
   color:#4A4A4A;
   font-size: 10px;
   padding: 20px;
+}
+@media(min-width:767px) {
 }
