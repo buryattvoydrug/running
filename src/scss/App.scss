@@ -1,6 +1,8 @@
 @import './pages/MainPage.scss';
+@import './pages/Form.scss';
 @import './pages/Single.scss';
 @import './components/Alert.scss';
+@import './components/SportItem.scss';
 @import './Fonts.scss';
 *{
   margin: 0;
@@ -33,6 +35,9 @@
   span{
     margin-right: 25px;
   }
+}
+strong{
+  font-family: 'Montserrat Bold';
 }
 footer{
   position: static;
